@@ -6,21 +6,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Professional Identity​
+Ziying Zhang​
 ---
-Name: Ziying Zhang​
-Current Position: Ph.D. Student in Internal Medicine​
+Ph.D. Student in Internal Medicine​
 
 Affiliations​
 ---
 [The Fifth Medical Center of Chinese PLA General Hospital, National Clinical Research Center for Infectious Diseases, Beijing, China.](https://www.301hospital-5.mil.cn/),
+
 [Peking University](https://www.pku.edu.cn/)
 
 Mentorship​
 ---
 I am privileged to be advised by two distinguished scholars:​
-[Prof. Fu-Sheng Wang](https://orcid.org/0000-0002-8043-6685)
-[Prof. Lei Shi](https://orcid.org/0000-0002-5727-3590)
+[Prof. Fu-Sheng Wang](https://orcid.org/0000-0002-8043-6685) and [Prof. Lei Shi](https://orcid.org/0000-0002-5727-3590)
 Their expertise in clinical research and translational medicine has been instrumental in shaping my academic direction and research approach.​
 
 Research Interests​
