@@ -19,15 +19,13 @@ Affiliations​
 Mentorship​
 ---
 I am privileged to be advised by two distinguished scholars:​
-[Prof. Fu-Sheng Wang](https://orcid.org/0000-0002-8043-6685) and [Prof. Lei Shi](https://orcid.org/0000-0002-5727-3590)
+[Prof. Fu-Sheng Wang](https://orcid.org/0000-0002-8043-6685) and [Prof. Lei Shi](https://orcid.org/0000-0002-5727-3590). 
 Their expertise in clinical research and translational medicine has been instrumental in shaping my academic direction and research approach.​
 
 Research Interests​
 ---
 My research focuses on translational studies of stem cell therapy for liver diseases, with key priorities including:​
-Design, implementation, and data analysis of clinical trials for stem cell-based liver disease treatments​
-Mechanistic exploration of stem cell therapeutic effects (e.g., cell differentiation, paracrine regulation) in liver injury models​
-Bridging preclinical findings with clinical practice to optimize treatment efficacy for liver-related disorders​
+Design, implementation, and data analysis of clinical trials for stem cell-based liver disease treatments​. Mechanistic exploration of stem cell therapeutic effects (e.g., cell differentiation, paracrine regulation) in liver injury models​. Bridging preclinical findings with clinical practice to optimize treatment efficacy for liver-related disorders​.
 
 Contact & Links
 ---
