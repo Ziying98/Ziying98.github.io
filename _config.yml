@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/ZY.png"
+  avatar           : "../images/ZY1.png"
   name             : "ZIYING ZHANG"
   pronouns         : # example: "she/her"  
   bio              : "Capricorn’s stubborn folks with decision-making difficulty"
