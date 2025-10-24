@@ -32,5 +32,6 @@ Design, implementation, and data analysis of clinical trials for stem cell-based
 Contact & Links
 ---
  [Ziying Zhang's Curriculum Vitae](../assets/CV2025ZY.pdf).
-[Email](mailto:ziying9818@163.com.cn) /[Email](mailto:zhangziying25@stu.pku.edu.cn) / [Github](https://github.com/Ziying98.github.io) / [QQ](../images/2896047f1d75a3b620268a8606c69e41.jpg) 
+ 
+[Email1](mailto:ziying9818@163.com.cn) /[Email2](mailto:zhangziying25@stu.pku.edu.cn) / [Github](https://github.com/Ziying98.github.io) / [QQ](../images/2896047f1d75a3b620268a8606c69e41.jpg) 
 
