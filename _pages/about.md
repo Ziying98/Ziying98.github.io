@@ -12,9 +12,11 @@ Ph.D. Student in Internal Medicine​
 
 Affiliations​
 ---
-[The Fifth Medical Center of Chinese PLA General Hospital, National Clinical Research Center for Infectious Diseases, Beijing, China.](https://www.301hospital-5.mil.cn/),
-
 [Peking University](https://www.pku.edu.cn/)
+
+[The Fifth Medical Center of Chinese PLA General Hospital](https://www.301hospital-5.mil.cn/)
+
+[National Clinical Research Center for Infectious Diseases, Beijing, China.](https://www.301hospital-5.mil.cn/)
 
 Mentorship​
 ---
