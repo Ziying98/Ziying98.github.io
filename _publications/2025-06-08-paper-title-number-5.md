@@ -1,7 +1,7 @@
 ---
 title: "Dose-Escalation Studies of Mesenchymal Stromal Cell Therapy for Decompensated Cirrhosis: Phase Ia/Ib Results and Immune Modulation Insights"
 collection: publications
-category: ARTICLE
+category: Journal Articles
 permalink: /publication/2025-07-29-paper-title-number-1
 excerpt: 'Dose-escalation studies of mesenchymal stromal cell therapy for decompensated liver cirrhosis: phase Ia/Ib results and immune modulation insights'
 date: 2025-07-29
