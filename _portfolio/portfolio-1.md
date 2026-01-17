@@ -34,7 +34,7 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 ```
 
-### 2. 模型构建
+### 2.分类模型构建
 对比两种经典分类模型：
 ```python
 # 逻辑回归模型
@@ -45,6 +45,25 @@ lr_model.fit(X_train_scaled, y_train)
 rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 rf_model.fit(X_train_scaled, y_train)
 ```
+### 3. 聚类模型构建
+使用 K 均值分析群体特征：
+# 肘部法则确定最佳聚类数  
+inertias = []  
+silhouette_scores = []  
+K_range = range(2,11)  
+for k in K_range:  
+    kmeans_temp = KMeans(n_clusters=k, random_state=42, n_init=10)  
+    kmeans_temp.fit(X_train_scaled)  
+    inertias.append(kmeans_temp.inertia_)  
+    silhouette_scores.append(silhouette_score(X_train_scaled, kmeans_temp.labels_))  
+
+# 构建K均值模型（k=2）  
+kmeans_model = KMeans(n_clusters=2, random_state=42, n_init=10)  
+kmeans_model.fit(X_train_scaled)  
+
+# PCA降维可视化聚类结果  
+pca = PCA(n_components=2)  
+X_pca = pca.fit_transform(X_train_scaled)  
 
 ### 3. 模型评估
 自定义评估函数输出关键指标：
@@ -70,9 +89,17 @@ def evaluate_model(y_true, y_pred, model_name):
 ![相关性热力图](/images/portfolio/heart-disease-prediction/correlation_heatmap.png)
 - 胸痛类型（cp）、最大心率（thalach）与患病风险高度相关，是核心预测因子。
 
-### 模型性能对比
+### 分类模型性能对比
 ![ROC曲线对比](/images/portfolio/heart-disease-prediction/roc_curve.png)
 - 随机森林模型AUC值达0.92，显著优于逻辑回归（0.89），具备更强的风险区分能力。
+
+### 聚类模型分析
+![K均值聚类肘部法则图](/images/portfolio/heart-disease-prediction/kmeans_elbow.png)
+- 聚类数 k=2 时，轮廓系数最高且惯性下降趋缓，符合 “心脏病 / 无心脏病” 的二分类场景。
+
+### 聚类结果可视化
+![聚类结果可视化](/images/portfolio/heart-disease-prediction/kmeans_clustering.png)
+- 左图：K 均值聚类将样本分为两类，群体特征区分明显；右图：真实标签分布与聚类结果高度吻合，说明聚类模型有效捕捉了患病群体的特征。
 
 ### 关键特征重要性
 ![特征重要性](/images/portfolio/heart-disease-prediction/feature_importance.png)
