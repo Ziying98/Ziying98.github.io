@@ -1,6 +1,4 @@
 ---
-```yaml
----
 title: "心脏病预测分析与模型构建"
 collection: portfolio
 type: "Machine Learning"
