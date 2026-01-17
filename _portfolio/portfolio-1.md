@@ -3,7 +3,7 @@ title: "心脏病预测分析与模型构建"
 collection: portfolio
 type: "Machine Learning"
 permalink: /portfolio/heart-disease-prediction
-date: 2024-01-15
+date: 2026-01-17
 excerpt: "基于心脏病数据集，通过数据分析与机器学习模型预测患病风险，对比逻辑回归与随机森林性能。"
 header:
   teaser: /images/portfolio/heart-disease-prediction/roc_curve.png
